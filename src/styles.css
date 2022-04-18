@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap");
+body {
+  background: #abd0bc;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+}
+.first-section,
+.third-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 1rem;
+  justify-self: center;
+  align-self: center;
+}
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.6rem;
+}
+.image-container,
+.programming-skills {
+  border-radius: 0.6rem;
+  background: #fff;
+  padding: 1rem;
+  width: 30rem;
+}
+.name-text-container {
+  border-radius: 0.6rem;
+  background: #fff;
+  padding: 1rem;
+  width: 30rem;
+}
+.name-text-container,
+.favorites {
+  padding: 2rem;
+  border-radius: 0.6rem;
+  background: #fff;
+  width: 30rem;
+  /* margin-left: 2rem; */
+}
+.text-me {
+  width: 30rem;
+}
+.second-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 1rem;
+}
+.experience {
+  width: 30rem;
+  /* margin-right: 2rem; */
+  padding: 1rem;
+  border-radius: 0.6rem;
+  background: #fff;
+  width: 30rem;
+}
+.education {
+  width: 30rem;
+  /* margin-left: 2rem; */
+  padding: 2rem;
+  border-radius: 0.6rem;
+  background: #fff;
+}
+ul li {
+  margin-bottom: 0.4rem;
+}
+ul {
+  list-style-type: square;
+}
+@media screen and (max-width: 480px) {
+  body {
+    background: #abd0bc;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .first-section,
+  .third-section,
+  .second-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  .image-container,
+  .programming-skills,
+  .experience,
+  .name-text-container,
+  .education,
+  .favorites {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 0.6rem;
+    background: #fff;
+    padding: 1rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+  }
+  .text-me {
+    width: initial;
+  }
+}
